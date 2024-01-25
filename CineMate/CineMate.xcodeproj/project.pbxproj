@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174530952AF3C27600B73E42 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174530942AF3C27600B73E42 /* ProfileViewController.swift */; };
+		176D0F082B1AB2460040D2CB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D0F072B1AB2460040D2CB /* TabBarViewController.swift */; };
+		179706D42B02BFF20066603C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179706D32B02BFF20066603C /* FavoritesViewController.swift */; };
+		17C953B72B03AFE20066E335 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C953B62B03AFE20066E335 /* Profile.swift */; };
+		17C953B92B03B6EE0066E335 /* DateFormatter + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C953B82B03B6EE0066E335 /* DateFormatter + Extensions.swift */; };
+		81202C672AF7AC89008B28EB /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 81202C662AF7AC89008B28EB /* Nuke */; };
+		81EC8D172AF75F1500BEA0A9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC8D162AF75F1500BEA0A9 /* Movie.swift */; };
+		81EC8D192AF75F8A00BEA0A9 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC8D182AF75F8A00BEA0A9 /* MoviesViewController.swift */; };
+		A445529B2AF4C77A008ABD3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445529A2AF4C77A008ABD3D /* User.swift */; };
+		A44552A02AF4D7F3008ABD3D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445529F2AF4D7F3008ABD3D /* LoginViewController.swift */; };
+		A44552A22AF4D972008ABD3D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44552A12AF4D972008ABD3D /* SignUpViewController.swift */; };
+		A4BC6DE52B14079700B75C62 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A4BC6DE42B14079700B75C62 /* GoogleSignIn */; };
+		A4BC6DE72B14079700B75C62 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A4BC6DE62B14079700B75C62 /* GoogleSignInSwift */; };
+		F40EAE2C2AEC118100E7F6F4 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EAE2B2AEC118100E7F6F4 /* APICaller.swift */; };
+		F4A0F49C2AF824F40065A739 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = F4A0F49B2AF824F40065A739 /* Nuke */; };
+		F4AD19222AEC069200CAE206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD19212AEC069200CAE206 /* AppDelegate.swift */; };
+		F4AD19242AEC069200CAE206 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD19232AEC069200CAE206 /* SceneDelegate.swift */; };
+		F4AD19262AEC069200CAE206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD19252AEC069200CAE206 /* ViewController.swift */; };
+		F4AD19292AEC069200CAE206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AD19272AEC069200CAE206 /* Main.storyboard */; };
+		F4AD192B2AEC069300CAE206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD192A2AEC069300CAE206 /* Assets.xcassets */; };
+		F4AD192E2AEC069300CAE206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AD192C2AEC069300CAE206 /* LaunchScreen.storyboard */; };
+		F4CA41162AF82AC700FE596B /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = F4CA41152AF82AC700FE596B /* Nuke */; };
+		F4CA411B2AF82B5B00FE596B /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = F4CA411A2AF82B5B00FE596B /* OpenAISwift */; };
+		F4CA411E2AF82B7200FE596B /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F4CA411D2AF82B7200FE596B /* ParseSwift */; };
+		F4CA41202AF830F400FE596B /* NowPlayingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA411F2AF830F400FE596B /* NowPlayingService.swift */; };
+		F4F5A7F12B1D2AAF00071CBA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5A7F02B1D2AAF00071CBA /* MovieCell.swift */; };
+		F4F5A7F32B1D2AC000071CBA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5A7F22B1D2AC000071CBA /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174530942AF3C27600B73E42 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		176D0F072B1AB2460040D2CB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		179706D32B02BFF20066603C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		17C953B62B03AFE20066E335 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		17C953B82B03B6EE0066E335 /* DateFormatter + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter + Extensions.swift"; sourceTree = "<group>"; };
+		81EC8D162AF75F1500BEA0A9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		81EC8D182AF75F8A00BEA0A9 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		A445529A2AF4C77A008ABD3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A445529F2AF4D7F3008ABD3D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A44552A12AF4D972008ABD3D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F40EAE2B2AEC118100E7F6F4 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		F4AD191E2AEC069200CAE206 /* CineMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AD19212AEC069200CAE206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4AD19232AEC069200CAE206 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4AD19252AEC069200CAE206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4AD19282AEC069200CAE206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4AD192A2AEC069300CAE206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4AD192D2AEC069300CAE206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4AD192F2AEC069300CAE206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CA411F2AF830F400FE596B /* NowPlayingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingService.swift; sourceTree = "<group>"; };
+		F4F5A7F02B1D2AAF00071CBA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F4F5A7F22B1D2AC000071CBA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4AD191B2AEC069200CAE206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CA411B2AF82B5B00FE596B /* OpenAISwift in Frameworks */,
+				81202C672AF7AC89008B28EB /* Nuke in Frameworks */,
+				A4BC6DE72B14079700B75C62 /* GoogleSignInSwift in Frameworks */,
+				F4A0F49C2AF824F40065A739 /* Nuke in Frameworks */,
+				F4CA411E2AF82B7200FE596B /* ParseSwift in Frameworks */,
+				F4CA41162AF82AC700FE596B /* Nuke in Frameworks */,
+				A4BC6DE52B14079700B75C62 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44552992AF4C75E008ABD3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A445529A2AF4C77A008ABD3D /* User.swift */,
+				17C953B62B03AFE20066E335 /* Profile.swift */,
+				81EC8D162AF75F1500BEA0A9 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A445529C2AF4C888008ABD3D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A445529F2AF4D7F3008ABD3D /* LoginViewController.swift */,
+				A44552A12AF4D972008ABD3D /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F4AD19152AEC069200CAE206 = {
+			isa = PBXGroup;
+			children = (
+				F4AD19202AEC069200CAE206 /* CineMate */,
+				F4AD191F2AEC069200CAE206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4AD191F2AEC069200CAE206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD191E2AEC069200CAE206 /* CineMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4AD19202AEC069200CAE206 /* CineMate */ = {
+			isa = PBXGroup;
+			children = (
+				A445529C2AF4C888008ABD3D /* Login */,
+				A44552992AF4C75E008ABD3D /* Models */,
+				174530942AF3C27600B73E42 /* ProfileViewController.swift */,
+				F4AD19212AEC069200CAE206 /* AppDelegate.swift */,
+				F4AD19232AEC069200CAE206 /* SceneDelegate.swift */,
+				F4AD19252AEC069200CAE206 /* ViewController.swift */,
+				F4AD19272AEC069200CAE206 /* Main.storyboard */,
+				F4AD192A2AEC069300CAE206 /* Assets.xcassets */,
+				F4AD192C2AEC069300CAE206 /* LaunchScreen.storyboard */,
+				F4AD192F2AEC069300CAE206 /* Info.plist */,
+				F40EAE2B2AEC118100E7F6F4 /* APICaller.swift */,
+				17C953B82B03B6EE0066E335 /* DateFormatter + Extensions.swift */,
+				F4CA411F2AF830F400FE596B /* NowPlayingService.swift */,
+				81EC8D182AF75F8A00BEA0A9 /* MoviesViewController.swift */,
+				176D0F072B1AB2460040D2CB /* TabBarViewController.swift */,
+				179706D32B02BFF20066603C /* FavoritesViewController.swift */,
+				F4F5A7F02B1D2AAF00071CBA /* MovieCell.swift */,
+				F4F5A7F22B1D2AC000071CBA /* DetailViewController.swift */,
+			);
+			path = CineMate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4AD191D2AEC069200CAE206 /* CineMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AD19322AEC069300CAE206 /* Build configuration list for PBXNativeTarget "CineMate" */;
+			buildPhases = (
+				F4AD191A2AEC069200CAE206 /* Sources */,
+				F4AD191B2AEC069200CAE206 /* Frameworks */,
+				F4AD191C2AEC069200CAE206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CineMate;
+			packageProductDependencies = (
+				81202C662AF7AC89008B28EB /* Nuke */,
+				F4A0F49B2AF824F40065A739 /* Nuke */,
+				F4CA41152AF82AC700FE596B /* Nuke */,
+				F4CA411A2AF82B5B00FE596B /* OpenAISwift */,
+				F4CA411D2AF82B7200FE596B /* ParseSwift */,
+				A4BC6DE42B14079700B75C62 /* GoogleSignIn */,
+				A4BC6DE62B14079700B75C62 /* GoogleSignInSwift */,
+			);
+			productName = CineMate;
+			productReference = F4AD191E2AEC069200CAE206 /* CineMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4AD19162AEC069200CAE206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F4AD191D2AEC069200CAE206 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F4AD19192AEC069200CAE206 /* Build configuration list for PBXProject "CineMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4AD19152AEC069200CAE206;
+			packageReferences = (
+				F4CA41142AF82AC700FE596B /* XCRemoteSwiftPackageReference "Nuke" */,
+				F4CA41192AF82B5B00FE596B /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				F4CA411C2AF82B7200FE596B /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				A4BC6DE32B14079700B75C62 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = F4AD191F2AEC069200CAE206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4AD191D2AEC069200CAE206 /* CineMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4AD191C2AEC069200CAE206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD192E2AEC069300CAE206 /* LaunchScreen.storyboard in Resources */,
+				F4AD192B2AEC069300CAE206 /* Assets.xcassets in Resources */,
+				F4AD19292AEC069200CAE206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4AD191A2AEC069200CAE206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176D0F082B1AB2460040D2CB /* TabBarViewController.swift in Sources */,
+				F4F5A7F12B1D2AAF00071CBA /* MovieCell.swift in Sources */,
+				179706D42B02BFF20066603C /* FavoritesViewController.swift in Sources */,
+				F4CA41202AF830F400FE596B /* NowPlayingService.swift in Sources */,
+				A44552A02AF4D7F3008ABD3D /* LoginViewController.swift in Sources */,
+				17C953B92B03B6EE0066E335 /* DateFormatter + Extensions.swift in Sources */,
+				17C953B72B03AFE20066E335 /* Profile.swift in Sources */,
+				81EC8D192AF75F8A00BEA0A9 /* MoviesViewController.swift in Sources */,
+				F4AD19262AEC069200CAE206 /* ViewController.swift in Sources */,
+				F4F5A7F32B1D2AC000071CBA /* DetailViewController.swift in Sources */,
+				81EC8D172AF75F1500BEA0A9 /* Movie.swift in Sources */,
+				A44552A22AF4D972008ABD3D /* SignUpViewController.swift in Sources */,
+				F4AD19222AEC069200CAE206 /* AppDelegate.swift in Sources */,
+				A445529B2AF4C77A008ABD3D /* User.swift in Sources */,
+				174530952AF3C27600B73E42 /* ProfileViewController.swift in Sources */,
+				F4AD19242AEC069200CAE206 /* SceneDelegate.swift in Sources */,
+				F40EAE2C2AEC118100E7F6F4 /* APICaller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4AD19272AEC069200CAE206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AD19282AEC069200CAE206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4AD192C2AEC069300CAE206 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AD192D2AEC069300CAE206 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4AD19302AEC069300CAE206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4AD19312AEC069300CAE206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4AD19332AEC069300CAE206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineMate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIGuild.CineMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4AD19342AEC069300CAE206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineMate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIGuild.CineMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4AD19192AEC069200CAE206 /* Build configuration list for PBXProject "CineMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AD19302AEC069300CAE206 /* Debug */,
+				F4AD19312AEC069300CAE206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AD19322AEC069300CAE206 /* Build configuration list for PBXNativeTarget "CineMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AD19332AEC069300CAE206 /* Debug */,
+				F4AD19342AEC069300CAE206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4BC6DE32B14079700B75C62 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		F4CA41142AF82AC700FE596B /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.6.0;
+			};
+		};
+		F4CA41192AF82B5B00FE596B /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+		F4CA411C2AF82B7200FE596B /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81202C662AF7AC89008B28EB /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Nuke;
+		};
+		A4BC6DE42B14079700B75C62 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4BC6DE32B14079700B75C62 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A4BC6DE62B14079700B75C62 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4BC6DE32B14079700B75C62 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		F4A0F49B2AF824F40065A739 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Nuke;
+		};
+		F4CA41152AF82AC700FE596B /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CA41142AF82AC700FE596B /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		F4CA411A2AF82B5B00FE596B /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CA41192AF82B5B00FE596B /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+		F4CA411D2AF82B7200FE596B /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CA411C2AF82B7200FE596B /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F4AD19162AEC069200CAE206 /* Project object */;
+}

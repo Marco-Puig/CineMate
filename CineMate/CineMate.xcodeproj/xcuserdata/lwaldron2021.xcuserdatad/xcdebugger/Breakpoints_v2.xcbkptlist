@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "72F971A3-EDEE-4CD7-81F7-5194BD79E808"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70CBA70F-E26F-4E96-81C4-66FBFC56C18D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CineMate/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39EAC742-DE10-4B81-B526-6F1C8C49849E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CineMate/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "216AB9AA-9CF2-41A9-B57F-9F8E2B6687CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CineMate/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA60807B-B6A9-4B31-B52A-A02325C2BE40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CineMate/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C9FC776-4E74-404D-9B7C-3EDAD5F41903"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CineMate/FavoritesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "didTapOkay(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C9FC776-4E74-404D-9B7C-3EDAD5F41903 - 68b4a7620865307b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.FavoritesViewController.didTapOkay(Any) -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/FavoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "5C9FC776-4E74-404D-9B7C-3EDAD5F41903 - 68b4a7620865307b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.FavoritesViewController.didTapOkay(Any) -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/FavoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+               <Location
+                  uuid = "5C9FC776-4E74-404D-9B7C-3EDAD5F41903 - 68b4a7620865307b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.FavoritesViewController.didTapOkay(Any) -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/FavoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9316850A-6B54-4783-BF53-C58654D9F959"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CineMate/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9316850A-6B54-4783-BF53-C58654D9F959 - 5b390c8ef2cd98ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.ProfileViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "9316850A-6B54-4783-BF53-C58654D9F959 - 5b390c8ef2cd97e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.ProfileViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "9316850A-6B54-4783-BF53-C58654D9F959 - 5b390c8ef2cd96a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.ProfileViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "9316850A-6B54-4783-BF53-C58654D9F959 - 5b390c8ef2cd96a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.ProfileViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EFB886A-FC85-467E-AAE3-743B65239C4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CineMate/FavoritesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "didTapOkay(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5EFB886A-FC85-467E-AAE3-743B65239C4D - 68b4a76208653085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.FavoritesViewController.didTapOkay(Any) -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/FavoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+               <Location
+                  uuid = "5EFB886A-FC85-467E-AAE3-743B65239C4D - 68b4a76208653085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CineMate.FavoritesViewController.didTapOkay(Any) -&gt; ()"
+                  moduleName = "CineMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lwaldron2021/Documents/cop4655-mobile-apps-final-project-group-3/CineMate/CineMate/FavoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1068">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
