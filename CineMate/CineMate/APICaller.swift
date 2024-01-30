@@ -13,7 +13,7 @@ final class APICaller {
     
     private init() {}
     
-    static let key = "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"
+    static let key = "API-KEY-HERE"
     
     private var client: OpenAISwift?
     
